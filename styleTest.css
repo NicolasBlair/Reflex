@@ -1,0 +1,91 @@
+.titre
+{
+	text-align: center;
+}
+
+.h2
+{
+	color : #333;
+	font-size: 40px;
+	text-transform: uppercase;
+	padding-top: 30px;
+}
+
+.conteneur1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 30px;
+}
+
+.conteneur2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 1000px;
+	border : 30px #17e2cd solid;
+	padding-bottom: 30px;
+	
+}
+
+.rebours{
+	margin-bottom: 20px;
+}
+
+.boutonRebours, .boutonHelp, .boutonSubmit
+{
+	border : 2px #17e2cd solid;
+	color : #17e2cd;
+	background-color : white;
+	width : 250px;
+	font-size:20px;
+	padding-top : 10px;
+	padding-bottom: 10px;
+}
+
+.boutonSubmit
+{
+	width : 465px;
+	padding-top : 20px;
+	padding-bottom: 20px;
+	border-bottom-right-radius: 90px;
+	border-top-right-radius: 90px;
+}
+
+.boutonHelp 
+{
+	margin-top: 30px;
+}
+
+.boutonSubmit:hover, .boutonHelp:hover, .boutonRebours:hover
+{
+	color: white;
+	background-color: #17e2cd;
+}
+
+.barre
+{
+	padding-top: 20px;
+	
+}
+
+progress
+{
+	background-color : rgb(212,212,212);
+	width: 250px;
+	height: 20px;
+}
+
+label
+{
+	font-family: "Lato";
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+.image
+{
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
