@@ -1,0 +1,59 @@
+.titre
+{
+	text-align: center;
+}
+
+.h2
+{
+	color : #333;
+	font-size: 40px;
+	text-transform: uppercase;
+	padding-top: 30px;
+}
+
+.conteneur{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 30px;
+}
+
+table
+{
+	margin-top : 30px;
+	border-collapse: collapse;
+}
+
+.graph
+{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+td, th /* Mettre une bordure sur les td ET les th */
+{
+    border: 1px solid black;
+}
+.commentaire
+{
+	margin : auto;
+	padding-left: 100px;
+	padding-top: 20px;
+	padding-bottom : 50px;
+	margin-top: 80px; 
+	margin-bottom: 5%;
+	width: 700px;
+	border : 2px #17e2cd solid;
+	border-radius: 40px;
+}
+label
+{
+	font-size: 20px;
+	font-family : "Lato";
+	color : red;
+}
+textarea
+{
+	border: 1px solid #ddd;
+	border-radius: 10px;
+}
